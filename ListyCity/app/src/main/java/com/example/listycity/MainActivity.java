@@ -7,6 +7,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import org.junit.*;
+import static org.junit.Assert.*;
 
 public class MainActivity extends AppCompatActivity {
 
