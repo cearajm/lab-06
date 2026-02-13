@@ -14,7 +14,7 @@ public class CityListTest {
     }
 
     @Test
-    void testAdd() {
+    public void testAdd() {
         CityList cityList = mockCityList();
         assertEquals(1, cityList.getCities().size());
         City city = new City("Regina", "Saskatchewan");
@@ -24,7 +24,7 @@ public class CityListTest {
     }
 
     @Test
-    void testAddException() {
+    public void testAddException() {
         CityList cityList = mockCityList();
         City city = new City("Yellowknife", "Northwest Territories");
         cityList.add(city);
@@ -34,7 +34,7 @@ public class CityListTest {
     }
 
     @Test
-    void testGetCities() {
+    public void testGetCities() {
         CityList cityList = mockCityList();
 // This line checks if the first city in the cityList (retrieved by cityList.getCities().get(0))
 // is the same as the city returned by mockCity()
@@ -48,7 +48,7 @@ public class CityListTest {
     }
 
     @Test
-    void testGetCity() {
+    public void testGetCity() {
         CityList citylist = mockCityList();
     }
 

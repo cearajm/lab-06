@@ -21,6 +21,7 @@ public class CityList {
         if (cities.contains(city)) {
             throw new IllegalArgumentException();
         }
+        cities.add(city);
     }
 
     /**

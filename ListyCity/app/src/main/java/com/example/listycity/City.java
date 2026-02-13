@@ -15,14 +15,30 @@ public class City implements Comparable<City> {
         this.province = province;
     }
 
+    /**
+     * gets city name
+     * @return
+     * return name
+     */
     String getCityName() {
         return this.city;
     }
 
+    /**
+     * gets province name
+     * @return
+     * return province name
+     */
     String getProvinceName(){
         return this.province;
     }
 
+    /**
+     * this compares cities
+     * @param o
+     * @return
+     * return int something
+     */
     @Override
     public int compareTo(City o) {
         City city = (City) o;
