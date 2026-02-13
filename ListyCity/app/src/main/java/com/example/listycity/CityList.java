@@ -44,4 +44,21 @@ public class CityList {
 
     }
 
+    /**
+     * This deletes a city from the list if it is present in the list
+     * @param city
+     */
+    public void delete(City city) {
+
+    }
+
+    /**
+     * this counts how many cities are in the list
+     * @return
+     * returns num of cities in list
+     */
+    public int countCities() {
+        return cities.size();
+    }
+
 }

@@ -52,4 +52,19 @@ public class CityListTest {
         CityList citylist = mockCityList();
     }
 
+    @Test
+    public void testHasCity() {
+
+    }
+
+    @Test
+    public void testDelete() {
+
+    }
+
+    @Test
+    public void testCountCities() {
+
+    }
+
 }
